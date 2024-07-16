@@ -24,7 +24,7 @@ const checker = require("npm-license"),
     { CLIEngine } = require("./lib/cli-engine"),
     builtinRules = require("./lib/rules/index");
 
-require("shelljs/make");
+require("shelljs/make")
 /* global target -- global.target is declared in `shelljs/make.js` */
 /**
  * global.target = {};
